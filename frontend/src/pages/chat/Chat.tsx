@@ -102,6 +102,7 @@ const Chat = () => {
     const getUserInfoList = async () => {
         //if (!AUTH_ENABLED) {
             setShowAuthMessage(false);
+            AUTH_ENABLED=False;
         //    return;
         }
         const userInfoList = await getUserInfo();
